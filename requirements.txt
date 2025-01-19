@@ -1,0 +1,12 @@
+streamlit
+pypdf
+langchain
+langchain-openai
+langchain-community
+boto3
+python-dotenv
+openai
+#huggingface_hub
+unstructured
+unstructured[pdf]
+transformers
