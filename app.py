@@ -1,13 +1,11 @@
 import glob
 import os
-import sys
-import uuid
 import streamlit as st
 from pypdf import PdfReader
 from dotenv import load_dotenv
 from langchain_qdrant import QdrantVectorStore
 from qdrant_client import QdrantClient
-from qdrant_client.models import  VectorParams, Distance, PointStruct
+from qdrant_client.models import  VectorParams, Distance,
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
@@ -37,7 +35,6 @@ class ChatBot:
                     chunk_overlap=200,
                     length_function=len
         )
-
 
     def processing_local_data(self):
         qdrant: QdrantVectorStore

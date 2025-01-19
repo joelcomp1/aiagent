@@ -3,10 +3,11 @@ pypdf
 langchain
 langchain-openai
 langchain-community
+langchain_qdrant
 boto3
 python-dotenv
 openai
 #huggingface_hub
-unstructured
-unstructured[pdf]
-transformers
+#unstructured
+#unstructured[pdf]
+#transformers
